@@ -1,0 +1,17 @@
+{
+    "name": "legalthings/iam-client",
+    "description": "PHP Client for LegalThings IAM API",
+    "license": "MIT",
+    "require": {
+        "guzzle/guzzle": "~3.9.3",
+        "jasny/auth": "~1.1.0@beta"
+    },
+    "require-dev": {
+        "legalthings/php-code-quality": "~0.1.2"      
+    },
+    "autoload": {
+        "psr-4": {
+            "LegalThings\\": "src/"
+        }
+    }
+}
